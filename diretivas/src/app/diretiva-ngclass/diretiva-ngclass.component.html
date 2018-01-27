@@ -1,0 +1,20 @@
+
+<h5>Aplicando classes com property binding</h5>
+<h1>
+  <i class="glyphicon"
+    [class.glyphicon-star-empty]="!meuFavorito"
+    [class.glyphicon-star]="meuFavorito"
+    (click)="onClick()">
+  </i>
+</h1>
+
+<h5>Utilizando o ngClass</h5>
+<h1>
+    <i class="glyphicon"
+     [ngClass]="{
+       'glyphicon-star-empty': !meuFavorito,
+       'glyphicon-star': meuFavorito  
+      }"    
+      (click)="onClick()">
+    </i>
+  </h1>

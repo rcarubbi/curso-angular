@@ -1,0 +1,31 @@
+angular-cli commands
+npm install -g angular-cli
+
+ng init - cria um projeto na pasta corrente
+ng new nome-projeto criar um projeto em uma nova sub-pasta
+
+configurar pré-processador CSS
+ng new nome-projeto --style=sass
+ng new nome-projeto --style=less
+ng new nome-projeto --style=stylus
+
+modificar extensão de CSS padrão
+ng set deafults.styleExt scss
+ng set deafults.styleExt less
+ng set deafults.styleExt styl
+
+ng g[enerate] c[omponent] nome-component 
+ng g m nome-modulo 
+ng g s nome-servico
+ng serve inicializar webserver
+
+ng lint checar sintaxe
+ng test testar unitariamente com o jasmine
+ng e2e testar end to end integrado com protractor
+
+
+vs code plugins:
+auto-import
+vscode-icons
+angular code snippets
+atom one dark theme
