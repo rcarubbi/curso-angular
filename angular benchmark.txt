@@ -1,0 +1,9 @@
+
+Angular 2: 
+
+Curva de aprendizado: longa
+Verbosidade: alta
+desempenho: muito bom
+organização de codigo: alta 
+adesão da comunidade: alta
+quantidade de recursos: alta
