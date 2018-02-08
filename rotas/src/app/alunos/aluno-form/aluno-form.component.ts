@@ -31,7 +31,7 @@ export class AlunoFormComponent implements IformCanDeactivate, OnInit, OnDestroy
 
   podeDesativar() {
     if (this.formMudou) {
-      return confirm("Tem certeza que quer sair?"))
+      return confirm("Tem certeza que quer sair?");
     }
     else
       return true;
